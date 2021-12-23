@@ -3,7 +3,7 @@
           xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/service-definition-2.1.xsd">
 
     <service verb="create" noun="TutorialGroovy" type="script"
-             location="component://tutorial/service/tutorial/createTutorial.groovy">
+             location="component://tutorial/script/tutorial/CreateTutorial.groovy">
         <in-parameters>
             <auto-parameters entity-name="tutorial.Tutorial" include="all"/>
         </in-parameters>
