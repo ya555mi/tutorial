@@ -11,6 +11,8 @@
             <auto-parameters entity-name="tutorial.Tutorial" include="pk" required="true"/>
         </out-parameters>
     </service>
+
+     <!-- Create tutorial service -->
     <service verb="create" noun="Tutorial" type="inline">
         <in-parameters>
             <auto-parameters include="all"/>
